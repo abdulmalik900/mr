@@ -10,11 +10,11 @@ const Explore = () => {
       <div className='grid  lg:grid-cols-2 grid-cols-1 '>
         <div className='flex items-center flex-col px-7 lg:pl-9 '>
            <Image
-    src="/assets/explore.svg"
+    src="/assets/explore.png"
     alt="menu"
     width={623}
     height={300}
-    className="  md:h-[360px] lg:h-[400px] flex-shrink-0"
+    className="md:h-[360px] lg:h-[400px] flex-shrink-0"
   />     
  </div>
            
