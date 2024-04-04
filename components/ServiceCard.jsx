@@ -1,0 +1,90 @@
+import React from 'react'
+
+const ServiceCard = () => {
+  return (
+   <>
+       <section className='bg-gray-200 pt-5    '>
+       <div className="text-center font-Kamerik text-4xl font-normal  ">
+    <span className="text-black mr-2">Our</span>
+    <span className="text-blue-600">Services</span>
+</div>
+
+  <div className=' lg:px-14 md:px-16 px-8 lg:ml-5  pt-4 justify-start items-center grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4'>
+  {/* 1 */}
+
+<div className='flex  w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
+  <img
+    src="/icons/servicesicons/movers.svg"
+    alt="menu"
+    className="w-40 h-32 flex-shrink-0"
+  />
+  <div className="text-center mt-4">
+    <h1 className="text-black font-kamerik  font-normal leading-54 tracking-wider">Trunk Rental</h1>
+  </div>
+</div>
+{/* 2 */}
+<div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
+  <img
+    src="/icons/servicesicons/movers.svg"
+    alt="menu"
+    className="w-40 h-32 flex-shrink-0"
+  />
+  <div className="text-center mt-4">
+    <h1 className="text-black font-kamerik  font-normal leading-54 tracking-wider">Local Moving</h1>
+  </div>
+</div>
+
+{/* 3 */}
+<div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
+  <img
+    src="/icons/servicesicons/movers.svg"
+    alt="menu"
+    className="w-40 h-32 flex-shrink-0"
+  />
+  <div className="text-center mt-4">
+    <h1 className="text-black font-kamerik  font-normal leading-54 tracking-wider">Storage Solutions</h1>
+  </div>
+</div>
+
+{/* 4 */}
+<div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
+  <img
+    src="/icons/servicesicons/movers.svg"
+    alt="menu"
+    className="w-40 h-32 flex-shrink-0"
+  />
+  <div className="text-center mt-4">
+    <h1 className="text-black font-kamerik  font-normal leading-54 tracking-wider">Office Moving</h1>
+  </div>
+</div>
+
+{/* 5 */}
+<div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
+  <img
+    src="/icons/servicesicons/movers.svg"
+    alt="menu"
+    className="w-40 h-32 flex-shrink-0"
+  />
+  <div className="text-center mt-4">
+    <h1 className="text-black font-kamerik  font-normal leading-54 tracking-wider">Packing</h1>
+  </div>
+</div>
+
+{/* 6 */}
+<div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
+  <img
+    src="/icons/servicesicons/movers.svg"
+    alt="menu"
+    className="w-40 h-32 flex-shrink-0"
+  />
+  <div className="text-center mt-4">
+    <h1 className="text-black font-kamerik  font-normal leading-54 tracking-wider">Furniture Moving</h1>
+  </div>
+</div>
+  </div>
+</section>
+</>
+  )
+}
+
+export default ServiceCard
