@@ -1,5 +1,6 @@
 import React from 'react'
 import { MdOutlineArrowOutward } from "react-icons/md";
+import Image from 'next/image'
 const Explore = () => {
   return (
       <>
@@ -8,10 +9,12 @@ const Explore = () => {
     
       <div className='grid  lg:grid-cols-2 grid-cols-1 '>
         <div className='flex items-center flex-col px-7 lg:pl-9 '>
-           <img
+           <Image
     src="/assets/explore.svg"
     alt="menu"
-    className="w-[623px] h-[300px] md:h-[360px] lg:h-[400px] flex-shrink-0"
+    width={623}
+    height={300}
+    className="  md:h-[360px] lg:h-[400px] flex-shrink-0"
   />     
  </div>
            
