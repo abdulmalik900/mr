@@ -35,7 +35,7 @@ const Explore = () => {
 
             <button className=" inline-flex text-white  items-center lg:px-2 px-2 lg:py-1 py-2 xl:py-1  rounded-lg bg-[#0073CE] text-[14px] md:text-[13px] lg:text-[15px]">
           View Our Services
-          <MdOutlineArrowOutward className=" text-xl " />
+          <span className="loading loading-ring loading-xs"></span>
         </button>
             </div>
             </div>

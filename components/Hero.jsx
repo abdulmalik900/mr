@@ -17,8 +17,9 @@ function Hero() {
           </h1>
         </div>
         <button className="  w-fit inline-flex  items-center px-3 sm:px-4 py-2 sm:py-3 justify-center gap-2 rounded-lg bg-[#0073CE] text-sm sm:text-base">
-          Explore More
-          <MdOutlineArrowOutward className="text-xl" />
+          Let's Talk
+        <span className="loading loading-dots loading-md"></span>
+          
         </button>
       </div>
     </div>

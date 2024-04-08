@@ -1,11 +1,12 @@
 "use client";
-"use client";
+
 import { useState } from "react";
 import Image from "next/image";
 import { FaBars } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
+import Link from "next/link";
 
-const Home = () => {
+const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
@@ -25,10 +26,23 @@ const Home = () => {
             isMobileMenuOpen ? "block" : "hidden"
           }`}
         >
-          <li className="py-2 text-white">Home</li>
-          <li className="py-2 text-white">Services</li>
-          <li className="py-2 text-white">About Us</li>
-          <li className="py-2 text-white">Contact Us</li>
+          <li className="py-2 text-white">
+          <Link href="/">Home</Link>
+            
+            </li>
+
+          <li className="py-2 text-white">
+          <Link href="/Services">Services</Link>
+            
+            </li>
+          <li className="py-2 text-white">
+          <Link href="/aboutus"> About Us</Link>
+            
+            </li>
+          <li className="py-2 text-white">
+            <Link href="/contactus">Contact Us</Link>
+            
+            </li>
         </ul>
 
         <div className="flex items-center   md:gap-x-12">
@@ -88,4 +102,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Navbar;
