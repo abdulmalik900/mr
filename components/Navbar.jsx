@@ -97,10 +97,19 @@ const Navbar = () => {
           }
           >
             <hr/>
-            <li className="py-2 ">Home</li>
-            <li className="py-2">Services</li>
-            <li className="py-2">About Us</li>
-            <li className="py-2">Contact Us</li>
+            <li className="py-2 ">
+            <Link href="/">Home</Link>
+              </li>
+            <li className="py-2">
+              <Link href="/Services">Services</Link>
+              </li>
+            <li className="py-2">
+            <Link href="/aboutus"> About Us</Link>
+              
+              </li>
+            <li className="py-2">
+            <Link href="/contactus">Contact Us</Link>
+              </li>
           </ul>
         </div>
       </nav>
