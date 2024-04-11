@@ -48,20 +48,26 @@ const Navbar = () => {
         <div className="flex items-center   md:gap-x-12">
           {/* Social Icons */}
           <div className=" flex pr-10 gap-4">
-            <img
+            <Image
               src="/icons/linkedin.svg"
               alt="menu"
+              width={0}
+              height={0}
               className="h-4 w-6 cursor-pointer"
             />
             
-            <img
+            <Image
               src="/icons/x.svg"
               alt="menu"
+              width={0}
+              height={0}
               className="h-4 w-6 cursor-pointer"
             />
-            <img
+            <Image
               src="/icons/facebook.svg"
               alt="menu"
+              width={0}
+              height={0}
               className="h-4 w-6 cursor-pointer"
             />
           </div>

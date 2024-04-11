@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 const ServiceCard = () => {
   return (
    <>
@@ -12,21 +12,25 @@ const ServiceCard = () => {
   <div className=' lg:px-14 md:px-16 px-8 lg:ml-5  pt-4 justify-start items-center grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4'>
   {/* 1 */}
 
-<div className='flex  w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
-  <img
-    src="/icons/servicesicons/movers.svg"
+  <div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
+  <Image
+    src="/icons/services/trunk.svg"
     alt="menu"
+    width={0}
+    height={0}
     className="w-40 h-32 flex-shrink-0"
   />
   <div className="text-center mt-4">
-    <h1 className="text-black font-kamerik  font-normal leading-54 tracking-wider">Trunk Rental</h1>
+    <h1 className="text-black font-kamerik  font-normal leading-54 tracking-wider">Truck Rentals</h1>
   </div>
 </div>
 {/* 2 */}
 <div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
-  <img
-    src="/icons/servicesicons/movers.svg"
+  <Image
+    src="/icons/services/local.svg"
     alt="menu"
+    width={0}
+    height={0}
     className="w-40 h-32 flex-shrink-0"
   />
   <div className="text-center mt-4">
@@ -36,9 +40,11 @@ const ServiceCard = () => {
 
 {/* 3 */}
 <div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
-  <img
-    src="/icons/servicesicons/movers.svg"
+  <Image
+    src="/icons/services/storage.svg"
     alt="menu"
+    width={0}
+    height={0}
     className="w-40 h-32 flex-shrink-0"
   />
   <div className="text-center mt-4">
@@ -48,9 +54,11 @@ const ServiceCard = () => {
 
 {/* 4 */}
 <div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
-  <img
-    src="/icons/servicesicons/movers.svg"
+  <Image
+    src="/icons/services/office.svg"
     alt="menu"
+    width={0}
+    height={0}
     className="w-40 h-32 flex-shrink-0"
   />
   <div className="text-center mt-4">
@@ -60,9 +68,11 @@ const ServiceCard = () => {
 
 {/* 5 */}
 <div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
-  <img
-    src="/icons/servicesicons/movers.svg"
+  <Image
+    src="/icons/services/packing.svg"
     alt="menu"
+    width={0}
+    height={0}
     className="w-40 h-32 flex-shrink-0"
   />
   <div className="text-center mt-4">
@@ -72,9 +82,11 @@ const ServiceCard = () => {
 
 {/* 6 */}
 <div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
-  <img
-    src="/icons/servicesicons/movers.svg"
+  <Image
+    src="/icons/services/furniture.svg"
     alt="menu"
+    width={0}
+    height={0}
     className="w-40 h-32 flex-shrink-0"
   />
   <div className="text-center mt-4">

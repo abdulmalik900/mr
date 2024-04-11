@@ -4,13 +4,16 @@ const Testimonial = () => {
   return (
     <div>
 
-        <div className='bg-white pt-8'>
-            <div className='flex flex-col pt-3 text-center font-kamerik font-bold text-3xl text-black capitalize items-center w-721 h-104'>
-            <h1> Customer Testimonials</h1>
+        <div className='bg-white pb-8 pt-8'>
+            <div className='flex  flex-col pt-3 text-center font-kamerik font-bold text-3xl text-black capitalize items-center w-721 h-104'>
+            <div className="text-center font-Kamerik text-4xl font-normal  ">
+          <span className="text-black mr-2">Customer</span>
+          <span className="text-blue-600">Testimonial</span>
+        </div>
             </div>
 
 
-            <div className='flex mb-4 flex-col text-center font-sans text-gray-400 text-[16px] font-normal items-center pt-2 w-476 h-51 '>
+            <div className='flex mb-4 flex-col text-center font-sans text-gray-400 text-[10px] md:text-[14px] lg:text-[16px] font-normal items-center pt-2 w-476 h-51 '>
             <p>Read through the valuable feedback shared by our customers.</p>
             </div>
 
@@ -27,7 +30,7 @@ const Testimonial = () => {
       className="rounded-xl"
     />
     <span className='pt-3 pl-2'>
-      Saba Kazi
+    Kevin
     </span>
   </div>
 
@@ -70,7 +73,7 @@ const Testimonial = () => {
       className="rounded-xl"
     />
     <span className='pt-3 pl-2'>
-      Saba Kazi
+    Joseph
     </span>
   </div>
 

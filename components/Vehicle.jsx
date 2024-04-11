@@ -19,7 +19,7 @@ const Vehicle = () => {
             src="/vehicles/freezer1.svg"
             width={458}
             height={256}
-            alt="freezer1"
+            alt="Mitsubishi Fuso Canter Box 3 Ton"
             className="  px-2 rounded-xl "
           />
 
@@ -40,17 +40,16 @@ const Vehicle = () => {
             src="/vehicles/freezer2.svg"
             width={458}
             height={256}
-            alt="freezer1"
+            alt="Mitsubishi Fuso Canter Box 5 Ton"
             className="  px-2 rounded-xl "
           />
 
           <div className="bg-[#5294C7] text-center items-start  rounded-lg   border-r-1   w-[500] py-10 h-[300] mt-3 flex-shrink-0">
             <h1 className="flex flex-col text-white font-bold pt-1  items-center w-443 h-78 flex-shrink-0">
-              Mitsubishi Fuso Canter Box 3 Ton
+              Mitsubishi Fuso Canter Box 5 Ton
             </h1>
             <p className="text-white font-sans text-base pt-3 leading-8">
-              It is a medium-duty truck with a maximum gross weight of 6,000
-              pounds (3 tons) 
+            The Fuso Canter Box 5 Ton is a medium-duty truck with a cargo box and a 5-ton payload capacity.
             </p>
           </div>
         </div>
@@ -67,11 +66,10 @@ const Vehicle = () => {
 
           <div className="bg-[#5294C7] text-center items-start  rounded-lg   border-r-1   w-[500] py-10 h-[300] mt-3 flex-shrink-0">
             <h1 className="flex flex-col text-white font-bold pt-1  items-center w-443 h-78 flex-shrink-0">
-              Mitsubishi Fuso Canter Box 3 Ton
+              Mitsubishi Fuso Canter Box 10 Ton
             </h1>
             <p className="text-white font-sans text-base pt-3 leading-8">
-              It is a medium-duty truck with a maximum gross weight of 6,000
-              pounds (3 tons) 
+            The Mitsubishi Fuso Canter Box 10 Ton is a heavier-duty version  huge payload capacity.
             </p>
           </div>
         </div>
@@ -82,17 +80,16 @@ const Vehicle = () => {
             src="/vehicles/freezer4.svg"
             width={458}
             height={256}
-            alt="freezer1"
+            alt="Mitsubishi Fuso Canter Box 10 Ton"
             className="  px-2 rounded-xl "
           />
 
           <div className="bg-[#5294C7] text-center items-start  rounded-lg   border-r-1   w-[500] py-10 h-[300] mt-3 flex-shrink-0">
             <h1 className="flex flex-col text-white font-bold pt-1  items-center w-443 h-78 flex-shrink-0">
-              Mitsubishi Fuso Canter Box 3 Ton
+            Mitsubishi Fuso Open Top 3 Ton
             </h1>
             <p className="text-white font-sans text-base pt-3 leading-8">
-              It is a medium-duty truck with a maximum gross weight of 6,000
-              pounds (3 tons) 
+          Open Top 3 Ton is a medium-duty truck with an open bed and a 3-ton payload capacity.
             </p>
           </div>
         </div>
@@ -103,17 +100,16 @@ const Vehicle = () => {
             src="/vehicles/freezer5.svg"
             width={458}
             height={256}
-            alt="freezer1"
+            alt="High Roof Chiller Van"
             className="  px-2 rounded-xl "
           />
 
           <div className="bg-[#5294C7] text-center items-start  rounded-lg   border-r-1   w-[500] py-10 h-[300] mt-3 flex-shrink-0">
             <h1 className="flex flex-col text-white font-bold pt-1  items-center w-443 h-78 flex-shrink-0">
-              Mitsubishi Fuso Canter Box 3 Ton
+            High Roof Chiller Van
             </h1>
             <p className="text-white font-sans text-base pt-3 leading-8">
-              It is a medium-duty truck with a maximum gross weight of 6,000
-              pounds (3 tons) 
+            The top-of-the-line refrigeration systems to keep your goods fresh and cool.
             </p>
           </div>
         </div>
@@ -124,7 +120,7 @@ const Vehicle = () => {
             src="/vehicles/freezer6.svg"
             width={458}
             height={256}
-            alt="freezer1"
+            alt="Mitsubishi Fuso Canter Box 3 Ton"
             className="  px-2 rounded-xl "
           />
 
@@ -133,8 +129,7 @@ const Vehicle = () => {
               Mitsubishi Fuso Canter Box 3 Ton
             </h1>
             <p className="text-white font-sans text-base pt-3 leading-8">
-              It is a medium-duty truck with a maximum gross weight of 6,000
-              pounds (3 tons) 
+            This versatile truck is well-suited for a  furniture removal for houses, villas and office shifting 
             </p>
           </div>
         </div>

@@ -1,10 +1,17 @@
+"use client"
 import "./hero.css";
 import { MdOutlineArrowOutward } from "react-icons/md";
 
-function Hero() {
+function HomeHero() {
+
+  const handleWhatsAppClick = () => {
+    window.location.href = 'https://wa.me/971568608823';
+  };
+
+  
   return (
     <div
-      className="hero flex items-center px-[10%] w-full h-[60vh] sm:h-[70vh] md:h-[80vh] xl:h-[90vh] bg-no-repeat bg-cover bg-center "
+      className="hero1 flex items-center px-[10%] w-full h-[60vh] sm:h-[70vh] md:h-[80vh] xl:h-[90vh] bg-no-repeat bg-cover bg-center "
       style={{ zIndex: "-999" }}
     >
       <div className="text-white flex flex-col gap-y-3 ">
@@ -16,7 +23,7 @@ function Hero() {
             with Transformative Solutions
           </h1>
         </div>
-        <button className="  w-fit inline-flex  items-center px-3 sm:px-4 py-2 sm:py-3 justify-center gap-2 rounded-lg bg-[#0073CE] text-sm sm:text-base">
+        <button className="  w-fit inline-flex  items-center px-3 sm:px-4 py-2 sm:py-3 justify-center gap-2 rounded-lg bg-[#0073CE] text-sm sm:text-base" onClick={handleWhatsAppClick}>
           Lets Talk
         <span className="loading loading-dots loading-md"></span>
           
@@ -26,4 +33,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default HomeHero;

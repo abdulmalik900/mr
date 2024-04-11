@@ -1,8 +1,18 @@
-.hero{
+.hero1{
 
     
-    background-image: url(/assets/Hero.png);
+    background-image: url(/assets/Hero1.png);
 
 
 }
 
+.hero2{
+    background-image: url(/assets/Hero2.png);
+}
+
+.hero3{
+    background-image: url(/assets/Hero3.png);
+}
+.hero4{
+    background-image: url(/assets/Hero4.png);
+}
