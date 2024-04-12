@@ -14,7 +14,7 @@ const ServiceCard = () => {
 
   <div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
   <Image
-    src="/icons/services/trunk.svg"
+    src="/public/icons/services/trunk.svg"
     alt="menu"
     width={0}
     height={0}
