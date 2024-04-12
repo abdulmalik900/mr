@@ -12,7 +12,7 @@ const Vehicle = () => {
 
     
 
-      <div className="grid lg:grid-cols-3 gap-8 md:grid-cols-2 grid-cols-1 px-12 bg-gray-200 ">
+      <div className="grid w-full lg:grid-cols-3 gap-8 md:grid-cols-2 grid-cols-1 md:px-10 lg:px-12 px-6 pb-5 bg-gray-200 ">
         {/* Card 1 */}
         <div className=" pt-2 border-2  rounded-lg border-[#5294C7]  w-[476] h-[484]">
           <Image
@@ -121,7 +121,7 @@ const Vehicle = () => {
             width={458}
             height={256}
             alt="Mitsubishi Fuso Canter Box 3 Ton"
-            className="  px-2 rounded-xl "
+            className=" px-2 rounded-xl "
           />
 
           <div className="bg-[#5294C7] text-center items-start  rounded-lg   border-r-1   w-[500] py-10 h-[300] mt-3 flex-shrink-0">
