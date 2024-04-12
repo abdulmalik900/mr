@@ -14,11 +14,11 @@ const ServiceCard = () => {
 
   <div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
   <Image
-    src="/public/icons/services/trunk.svg"
+    src="/icons/services/trunk.svg"
     alt="menu"
-    width={0}
-    height={0}
-    className="w-40 h-32 flex-shrink-0"
+    width={140}
+    height={132}
+    className=" flex-shrink-0"
   />
   <div className="text-center mt-4">
     <h1 className="text-black font-kamerik  font-normal leading-54 tracking-wider">Truck Rentals</h1>
@@ -29,9 +29,9 @@ const ServiceCard = () => {
   <Image
     src="/icons/services/local.svg"
     alt="menu"
-    width={0}
-    height={0}
-    className="w-40 h-32 flex-shrink-0"
+    width={140}
+    height={132}
+    className="pt-5 flex-shrink-0"
   />
   <div className="text-center mt-4">
     <h1 className="text-black font-kamerik  font-normal leading-54 tracking-wider">Local Moving</h1>
@@ -56,7 +56,7 @@ const ServiceCard = () => {
 <div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
   <Image
     src="/icons/services/office.svg"
-    alt="menu"
+    alt="Office Moving Services"
     width={0}
     height={0}
     className="w-40 h-32 flex-shrink-0"
