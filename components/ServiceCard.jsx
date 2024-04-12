@@ -18,9 +18,9 @@ const ServiceCard = () => {
     alt="menu"
     width={140}
     height={132}
-    className=" flex-shrink-0"
+    className=" "
   />
-  <div className="text-center mt-4">
+  <div className="text-center ">
     <h1 className="text-black font-kamerik  font-normal leading-54 tracking-wider">Truck Rentals</h1>
   </div>
 </div>
@@ -29,11 +29,11 @@ const ServiceCard = () => {
   <Image
     src="/icons/services/local.svg"
     alt="menu"
-    width={140}
-    height={132}
-    className="pt-5 flex-shrink-0"
+    width={145}
+    height={166}
+    className="pt-5 "
   />
-  <div className="text-center mt-4">
+  <div className="text-center mt-6">
     <h1 className="text-black font-kamerik  font-normal leading-54 tracking-wider">Local Moving</h1>
   </div>
 </div>
@@ -43,9 +43,9 @@ const ServiceCard = () => {
   <Image
     src="/icons/services/storage.svg"
     alt="menu"
-    width={0}
-    height={0}
-    className="w-40 h-32 flex-shrink-0"
+    width={111}
+    height={132}
+    className="pt-2"
   />
   <div className="text-center mt-4">
     <h1 className="text-black font-kamerik  font-normal leading-54 tracking-wider">Storage Solutions</h1>
@@ -57,9 +57,9 @@ const ServiceCard = () => {
   <Image
     src="/icons/services/office.svg"
     alt="Office Moving Services"
-    width={0}
-    height={0}
-    className="w-40 h-32 flex-shrink-0"
+    width={131}
+    height={132}
+    className=" py-3 "
   />
   <div className="text-center mt-4">
     <h1 className="text-black font-kamerik  font-normal leading-54 tracking-wider">Office Moving</h1>
@@ -71,9 +71,9 @@ const ServiceCard = () => {
   <Image
     src="/icons/services/packing.svg"
     alt="menu"
-    width={0}
-    height={0}
-    className="w-40 h-32 flex-shrink-0"
+    width={131}
+    height={132}
+    className="pt-2 flex-shrink-0"
   />
   <div className="text-center mt-4">
     <h1 className="text-black font-kamerik  font-normal leading-54 tracking-wider">Packing</h1>
@@ -85,9 +85,9 @@ const ServiceCard = () => {
   <Image
     src="/icons/services/furniture.svg"
     alt="menu"
-    width={0}
-    height={0}
-    className="w-40 h-32 flex-shrink-0"
+    width={131}
+    height={132}
+    className="pt-2 flex-shrink-0"
   />
   <div className="text-center mt-4">
     <h1 className="text-black font-kamerik  font-normal leading-54 tracking-wider">Furniture Moving</h1>
