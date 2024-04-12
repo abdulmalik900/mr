@@ -20,7 +20,7 @@ const Testimonial = () => {
           <div className="pt-4 rounded-lg bg-gray-200">
             <div className="flex pl-3 pt-4 text-blue-600 font-kamerik text-base font-normal">
               <Image
-                src="/icons/testimonial/user.svg"
+                src="/testimonial/user.svg"
                 width={55}
                 height={33}
                 alt="freezer1"
@@ -42,7 +42,7 @@ const Testimonial = () => {
 
             <div className="flex  pt-5 pb-5 mx-6 gap-2">
               <Image
-                src="/icons/testimonial/country1.svg"
+                src="/testimonial/country1.svg"
                 height={20}
                 width={18}
                 alt="Country"
@@ -51,7 +51,7 @@ const Testimonial = () => {
                 Google Review
               </h1>
               <Image
-                src="/icons/testimonial/star.svg"
+                src="/testimonial/star.svg"
                 height={100}
                 width={90}
                 alt="Country"
@@ -65,7 +65,7 @@ const Testimonial = () => {
           <div className="pt-4 rounded-lg bg-gray-200">
             <div className="flex pl-3 pt-4 text-blue-600 font-kamerik text-base font-normal">
               <Image
-                src="/icons/testimonial/user.svg"
+                src="/testimonial/user.svg"
                 width={55}
                 height={33}
                 alt="freezer1"
@@ -87,7 +87,7 @@ const Testimonial = () => {
 
             <div className="flex  pt-5 pb-5 mx-6 gap-2">
               <Image
-                src="/icons/testimonial/country1.svg"
+                src="/testimonial/country1.svg"
                 height={20}
                 width={18}
                 alt="Country"
@@ -96,7 +96,7 @@ const Testimonial = () => {
                 Google Review
               </h1>
               <Image
-                src="/icons/testimonial/star.svg"
+                src="/testimonial/star.svg"
                 height={100}
                 width={90}
                 alt="Country"
@@ -110,7 +110,7 @@ const Testimonial = () => {
           <div className="pt-4 rounded-lg bg-gray-200">
             <div className="flex pl-3 pt-4 text-blue-600 font-kamerik text-base font-normal">
               <Image
-                src="/icons/testimonial/user.svg"
+                src="/testimonial/user.svg"
                 width={55}
                 height={33}
                 alt="freezer1"
@@ -132,7 +132,7 @@ const Testimonial = () => {
 
             <div className="flex  pt-5 pb-5 mx-6 gap-2">
               <Image
-                src="/icons/testimonial/country1.svg"
+                src="/testimonial/country1.svg"
                 height={20}
                 width={18}
                 alt="Country"
@@ -141,7 +141,7 @@ const Testimonial = () => {
                 Google Review
               </h1>
               <Image
-                src="/icons/testimonial/star.svg"
+                src="/testimonial/star.svg"
                 height={100}
                 width={90}
                 alt="Country"

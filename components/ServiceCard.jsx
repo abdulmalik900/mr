@@ -3,23 +3,29 @@ import Image from 'next/image'
 const ServiceCard = () => {
   return (
    <>
-       <section className='bg-gray-200 pt-5    '>
-       <div className="text-center font-Kamerik text-4xl font-normal  ">
+
+    <section className='bg-gray-200 pt-5    '>
+    <div className="text-center font-Kamerik text-4xl font-normal  ">
     <span className="text-black mr-2">Our</span>
     <span className="text-blue-600">Services</span>
+
 </div>
 
-  <div className=' lg:px-14 md:px-16 px-8 lg:ml-5  pt-4 justify-start items-center grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4'>
+  <div className='lg:px-14 md:px-16 px-8 lg:ml-5  pt-4 justify-start items-center grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4'>
   {/* 1 */}
 
   <div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
   <Image
+
     src="/servicesdata/trunk.svg"
-    alt="Truck Rentals Services"
+    alt="Trunk Rentals Services"
     width={140}
     height={132}
     className=" "
+
   />
+
+
   <div className="text-center ">
     <h1 className="text-black font-kamerik  font-normal leading-54 tracking-wider">Truck Rentals</h1>
   </div>

@@ -9,7 +9,7 @@ const ServicesPageCard = () => {
         <div className="flex items-center justify-center bg-white mx-auto w-full h-[320px] border border-t-8 border-r-8 border-b-8 border-b-[#5294C7] rounded-lg border-r-[#5294C7] border-t-[#5294C7] py-4">
           <div className="text-center">
             <Image
-              src="/icons/services/trunk.svg"
+              src="/servicesdata/trunk.svg"
               width={150}
               height={129}
               className="mx-auto "
@@ -30,7 +30,7 @@ const ServicesPageCard = () => {
         <div className="bg-white mx-auto  w-full h-[320px] border border-t-8 border-r-8 border-b-8 border-b-[#5294C7] rounded-lg border-r-[#5294C7] border-t-[#5294C7]  py-4 ">
           <div className="">
             <Image
-              src="/icons/services/local.svg"
+              src="/servicesdata/local.svg"
               width={150}
               height={179}
               className="mx-auto pb-6"
@@ -51,7 +51,7 @@ const ServicesPageCard = () => {
         <div className="flex items-center justify-center bg-white mx-auto w-full h-[320px] border border-t-8 border-r-8 border-b-8 border-b-[#5294C7] rounded-lg border-r-[#5294C7] border-t-[#5294C7] py-4">
           <div className="text-center">
             <Image
-              src="/icons/services/packing.svg"
+              src="/servicesdata/packing.svg"
               width={150}
               height={70}
               className="mx-auto pt-7 h-36 "
@@ -72,7 +72,7 @@ const ServicesPageCard = () => {
         <div className="bg-white w-full h-[320px] border border-t-8 border-r-8 border-b-8 border-b-[#5294C7] rounded-lg border-r-[#5294C7] border-t-[#5294C7]  py-4 ">
           <div className="">
             <Image
-              src="/icons/services/storage.svg"
+              src="/servicesdata/storage.svg"
               width={150}
               height={179}
               className="mx-auto h-28 "
@@ -93,7 +93,7 @@ const ServicesPageCard = () => {
         <div className="bg-white w-full h-[320px] border border-t-8 border-r-8 border-b-8 border-b-[#5294C7] rounded-lg border-r-[#5294C7] border-t-[#5294C7]  py-4 ">
           <div className="">
             <Image
-              src="/icons/services/office.svg"
+              src="/servicesdata/office.svg"
               width={150}
               height={179}
               className="mx-auto pb-6 h-32"
@@ -114,7 +114,7 @@ const ServicesPageCard = () => {
         <div className="bg-white w-full h-[320px] border border-t-8 border-r-8 border-b-8 border-b-[#5294C7] rounded-lg border-r-[#5294C7] border-t-[#5294C7]  py-4 ">
           <div className="">
             <Image
-              src="/icons/services/furniture.svg"
+              src="/servicesdata/furniture.svg"
               width={150}
               height={179}
               className="mx-auto h-32 pb-6"

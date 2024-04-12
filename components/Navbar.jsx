@@ -17,7 +17,10 @@ const Navbar = () => {
     <>
       <nav className="flex justify-between text-white items-center h-[65px] w-full bg-gradient-to-r from-blue-500 via-blue-400 to-blue-700">
         <div className="pl-10">
-          <Image src="/logo.png" width={70} height={70} alt="logo" />
+          <Image src="/logo/logo.png" 
+          width={70} 
+          height={70} 
+          alt="Nav logo" />
         </div>
 
         {/* Main Menu */}
@@ -45,7 +48,7 @@ const Navbar = () => {
           {/* Social Icons */}
           <div className=" flex pr-10 gap-4">
             <Image
-              src="/icons/linkedin.svg"
+              src="/socialmedia/linkedin.svg"
               alt="menu"
               width={0}
               height={0}
@@ -53,14 +56,14 @@ const Navbar = () => {
             />
 
             <Image
-              src="/icons/x.svg"
+              src="/socialmedia/x.svg"
               alt="menu"
               width={0}
               height={0}
               className="h-4 w-6 cursor-pointer"
             />
             <Image
-              src="/icons/facebook.svg"
+              src="/socialmedia/facebook.svg"
               alt="menu"
               width={0}
               height={0}

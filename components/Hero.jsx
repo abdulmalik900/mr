@@ -38,7 +38,7 @@ function HomeHero() {
         style={{ zIndex: "-999" }}
       >
         <Image
-          src="/assets/Hero1.png"
+          src="/herodata/Hero1.png"
           className="w-full h-screen"
           width={807}
           height={602}

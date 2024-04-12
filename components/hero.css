@@ -3,12 +3,12 @@
 } */
 
 .hero2{
-    background-image: url(/assets/Hero2.png);
+    background-image: url(/herodata/Hero2.png);
 }
 
 .hero3{
-    background-image: url(/assets/Hero3.png);
+    background-image: url(/herodata/Hero3.png);
 }
 .hero4{
-    background-image: url(/assets/Hero4.png);
+    background-image: url(/herodata/Hero4.png);
 }

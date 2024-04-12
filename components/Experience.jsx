@@ -13,10 +13,10 @@ const Experience = () => {
       <div className='grid gap-4 mx-10 lg:grid-cols-2 md:grid-cols-2 grid-cols-1'>
         <div className='pt-5'>
           <Image
-            src='/assets/experience.svg'
+            src='/experience.svg'
             width={950}
             height={622}
-            alt='Experience1'
+            alt='Experience'
           />
         </div>
 

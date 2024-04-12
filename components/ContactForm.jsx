@@ -42,7 +42,13 @@ const ContactForm = () => {
 
       {/* 2 */}
       <div>
-        <Image src="/assets/map.svg" width={807} height={602} alt="home" />
+        <Image
+         src="/map.svg" 
+        width={807}
+         height={602} 
+        alt="Map" 
+        
+        />
       </div>
     </div>
   );
