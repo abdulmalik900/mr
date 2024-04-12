@@ -27,22 +27,18 @@ const Navbar = () => {
           }`}
         >
           <li className="py-2 text-white">
-          <Link href="/">Home</Link>
-            
-            </li>
+            <Link href="/">Home</Link>
+          </li>
 
           <li className="py-2 text-white">
-          <Link href="/Services">Services</Link>
-            
-            </li>
+            <Link href="/Services">Services</Link>
+          </li>
           <li className="py-2 text-white">
-          <Link href="/aboutus"> About Us</Link>
-            
-            </li>
+            <Link href="/aboutus"> About Us</Link>
+          </li>
           <li className="py-2 text-white">
             <Link href="/contactus">Contact Us</Link>
-            
-            </li>
+          </li>
         </ul>
 
         <div className="flex items-center   md:gap-x-12">
@@ -55,7 +51,7 @@ const Navbar = () => {
               height={0}
               className="h-4 w-6 cursor-pointer"
             />
-            
+
             <Image
               src="/icons/x.svg"
               alt="menu"
@@ -92,24 +88,33 @@ const Navbar = () => {
           <ul
             className={`md:hidden font-sans absolute top-[65px] p-4 text-white left-0 transition-all ease-in 4s  w-full bg-gradient-to-r from-blue-500 via-blue-400 to-blue-700  ${
               isMobileMenuOpen ? "" : "translate-x-[-110%] "
-            }`
-           
-          }
+            }`}
           >
-            <hr/>
-            <li className="py-2 ">
-            <Link href="/">Home</Link>
-              </li>
-            <li className="py-2">
+            <hr />
+            <li
+              className="py-2 "
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
+              <Link href="/">Home</Link>
+            </li>
+            <li
+              className="py-2  "
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
               <Link href="/Services">Services</Link>
-              </li>
-            <li className="py-2">
-            <Link href="/aboutus"> About Us</Link>
-              
-              </li>
-            <li className="py-2">
-            <Link href="/contactus">Contact Us</Link>
-              </li>
+            </li>
+            <li
+              className="py-2  "
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
+              <Link href="/aboutus"> About Us</Link>
+            </li>
+            <li
+              className="py-2  "
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
+              <Link href="/contactus">Contact Us</Link>
+            </li>
           </ul>
         </div>
       </nav>
