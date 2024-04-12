@@ -15,17 +15,17 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex justify-between text-white items-center h-[65px] w-full bg-gradient-to-r from-blue-500 via-blue-400 to-blue-700">
+      <nav className="flex justify-between  text-white items-center h-[65px] w-full bg-gradient-to-r from-blue-500 via-blue-400 to-blue-700">
         <div className="pl-10">
           <Image src="/logo/logo.png" 
           width={70} 
           height={70} 
-          alt="Nav logo" />
+          alt="Navbar logo" />
         </div>
 
         {/* Main Menu */}
         <ul
-          className={`absolute text-bl gap-3 top-[65px] left-0 md:relative md:top-auto md:left-auto md:flex md:space-x-4 ${
+          className={`absolute text-bl gap-5 top-[65px] left-0 md:relative md:top-auto md:left-auto md:flex md:space-x-4 ${
             isMobileMenuOpen ? "block" : "hidden"
           }`}
         >
