@@ -14,8 +14,8 @@ const ServiceCard = () => {
 
   <div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
   <Image
-    src="/icons/services/trunk.svg"
-    alt="menu"
+    src="/servicesdata/trunk.svg"
+    alt="Truck Rentals Services"
     width={140}
     height={132}
     className=" "
@@ -27,8 +27,8 @@ const ServiceCard = () => {
 {/* 2 */}
 <div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
   <Image
-    src="/icons/services/local.svg"
-    alt="menu"
+    src="/servicesdata/local.svg"
+    alt="Local Moving Services"
     width={145}
     height={166}
     className="pt-5 "
@@ -41,8 +41,8 @@ const ServiceCard = () => {
 {/* 3 */}
 <div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
   <Image
-    src="/icons/services/storage.svg"
-    alt="menu"
+    src="/servicesdata/storage.svg"
+    alt="Storage Solutions Services"
     width={111}
     height={132}
     className="pt-2"
@@ -55,7 +55,7 @@ const ServiceCard = () => {
 {/* 4 */}
 <div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
   <Image
-    src="/icons/services/office.svg"
+    src="/servicesdata/office.svg"
     alt="Office Moving Services"
     width={131}
     height={132}
@@ -69,8 +69,8 @@ const ServiceCard = () => {
 {/* 5 */}
 <div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
   <Image
-    src="/icons/services/packing.svg"
-    alt="menu"
+    src="/servicesdata/packing.svg"
+    alt="Packing Services"
     width={131}
     height={132}
     className="pt-2 flex-shrink-0"
@@ -83,11 +83,11 @@ const ServiceCard = () => {
 {/* 6 */}
 <div className='flex w-full flex-col items-center md:w-72 lg:w-80 h-64 lg:h-64  md:h-64 rounded-3xl border-2 border-gray-300 py-4'>
   <Image
-    src="/icons/services/furniture.svg"
-    alt="menu"
+    src="/servicesdata/furniture.svg"
+    alt="Furniture Moving Services"
     width={131}
     height={132}
-    className="pt-2 flex-shrink-0"
+    className="pt-2 "
   />
   <div className="text-center mt-4">
     <h1 className="text-black font-kamerik  font-normal leading-54 tracking-wider">Furniture Moving</h1>

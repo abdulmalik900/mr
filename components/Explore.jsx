@@ -7,18 +7,17 @@ const Explore = () => {
        {/* Col 1 */}
       <div className='bg-gray-200 pt-6 pb-3'>
     
-      <div className='grid  lg:grid-cols-2 grid-cols-1 '>
-        <div className='flex items-center flex-col px-7 lg:pl-9 '>
-           <Image
-    src="/assets/explore.png"
-    alt="menu"
-    width={623}
-    height={300}
-    className="md:h-[360px] lg:h-[400px] flex-shrink-0"
+  <div className='grid  lg:grid-cols-2 grid-cols-1 '>
+  <div className='flex items-center flex-col px-7 lg:pl-9 '>
+  <Image
+    src="/explore.png"
+    alt="Explore Our Service"
+    width="623"
+    height="300"
+    className="md:h-[360px] lg:h-[400px] "
   />     
  </div>
-           
-           
+
 {/* Col 2 */}
  <div className='flex flex-col leading-8 lg:leading-10 lg:pt-20  lg:items-start items-center pl-7 lg:pl-14  '>
     <div className="text-left  font-extralight  lg:text-4xl text-[26px]   ">
