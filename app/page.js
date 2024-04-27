@@ -11,17 +11,17 @@ import Testimonial from "@/components/Testimonial";
 import Vehicle from "@/components/Vehicle";
 
 export default function HomePage() {
-  return (
-    <div className="max-w-7xl mx-auto">
-   
-    <HomeHero/>
-    <ServiceCard/>
-    <Explore/>
-    <Vehicle/>
-    <Testimonial/>
-    {/* <Faq/> */}
-    <Pic/>
-    
-    </div>
-  );
+    return (
+        <div className="max-w-7xl mx-auto">
+
+            <HomeHero />
+            <ServiceCard />
+            <Explore />
+            <Vehicle />
+            <Testimonial />
+            {/* <Faq/> */}
+            <Pic />
+
+        </div>
+    );
 }
