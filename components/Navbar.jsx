@@ -17,10 +17,12 @@ const Navbar = () => {
     <>
       <nav className="flex justify-between  text-white items-center h-[65px] w-full bg-gradient-to-r from-blue-500 via-blue-400 to-blue-700">
         <div className="pl-10">
-          <Image src="/logo/logo.png" 
-          width={70} 
-          height={70} 
-          alt="Navbar logo" />
+          <Image
+            src="/logo/logo.png"
+            width={70}
+            height={70}
+            alt="Navbar logo"
+          />
         </div>
 
         {/* Main Menu */}
@@ -89,7 +91,7 @@ const Navbar = () => {
           {/* mobile menu */}
 
           <ul
-            className={`md:hidden font-sans absolute top-[65px] p-4 text-white left-0 transition-all ease-in 4s  w-full bg-gradient-to-r from-blue-500 via-blue-400 to-blue-700  ${
+            className={`md:hidden font-sans absolute top-[65px] z-50 p-4 text-white left-0 transition-all duration-500 ease-in w-full bg-gradient-to-r from-blue-500 via-blue-400 to-blue-700  ${
               isMobileMenuOpen ? "" : "translate-x-[-110%] "
             }`}
           >
